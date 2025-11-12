@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        enter name <input required minlength="3", maxlength="10" type="text" name="fname" ><br>
+        <input required type="text" name="fname",  placeholder="enter name"><br>
+        <input type="email" name="email", placeholder="enter email"><br>
+        <input pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[a-z A-Z 0-9])(?!.*\s).{8,20}$" type="password" name="passwd" , placeholder="enter password"><br>
+        <input type="date" name="dob"><br>
+        <input require min="12000" max="600000" type="number" name="salary", placeholder="salary"><br>
+        Check in time <input type="time" name="intime" id=""><br>
+        <textarea name="Address" cols="30" rows="4" placeholder="address"></textarea><br>
+        Gender<input type="radio" name="gender" value="m">male
+        <input type="radio" name="gender"value="f">female
+        <br>
+        deparytment: <select name="dept" id="">
+            <option value="none">-------------------</option>
+            <option value="hr">hr</option>
+            <option value="sales">sales</option>
+            <option value="marketing">marketing</option>    
+            <option value="it">it</option>
+            </select><br>
+        choose elecctives:<br>
+        <input type="checkbox" name="elecctives" value="html">html <br>
+        <input type="checkbox" name="elecctives" value="python">python <br>
+        <input type="checkbox" name="elecctives" value="java">java <br>
+        <input type="checkbox" name="elecctives" value="django">django <br>
+        <input type="checkbox" name="elecctives" value="ai">ai <br>
+        <input type="checkbox" name="elecctives" value="ml">ml <br>
+        <input type="submit" value="submit">
+        <input type="reset" value="clear all"><br>
+       
+    </form>
+    
+</body>
+</html>
